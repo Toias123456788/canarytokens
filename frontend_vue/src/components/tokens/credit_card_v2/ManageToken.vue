@@ -14,16 +14,18 @@ const props = defineProps<{
 
 // TODO: these fields are coming empty from the backend
 // const tokenData = ref({
-// 	card_name: props.tokenData.card_name || 'Paul Ndegwa Gichuki',
+// 	name_on_card: props.tokenData.name_on_card || 'Paul Ndegwa Gichuki',
 // 	card_number: props.tokenData.card_number || '0000 0000 0000 0000 0000',
-// 	expiry: props.tokenData.expiry || '11/27',
-// 	cvc: props.tokenData.cvc || '344',
+// expiry_month: props.tokenData.expiry_month || '11',
+// expiry_year: props.tokenData.expiry_year || '27',
+// 	cvv: props.tokenData.cvv || '344',
 // });
 
 const tokenInfo = ref({
-	card_name: 'Paul Ndegwa Gichuki',
+	name_on_card: 'Paul Ndegwa Gichuki',
 	card_number:'0000 0000 0000 0000',
-	expiry: '11/2027',
-	cvc: '344',
+	expiry_month: '11',
+	expiry_year: '27',
+	cvv: '344',
 });
 </script>

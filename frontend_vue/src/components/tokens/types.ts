@@ -248,8 +248,9 @@ export type HistoryTokenBackendType = {
 };
 
 export type CCtokenDataType = {
-	card_name: string;
+	name_on_card: string;
 	card_number: string;
-	expiry: string;
-	cvc: string;
+	expiry_month: string;
+	expiry_year: string;
+	cvv: string;
 };
