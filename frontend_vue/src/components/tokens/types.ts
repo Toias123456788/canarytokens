@@ -75,6 +75,12 @@ type CanaryDropType = {
   wg_conf: string;
   pwa_icon: string | null;
   pwa_app_name: string | null;
+  cc_v2_card_id: string;
+  cc_v2_card_number: string;
+  cc_v2_cvv: string;
+  cc_v2_expiry_month: string;
+  cc_v2_expiry_year: string;
+  cc_v2_name_on_card: string;
 };
 
 type NullablePartial<T> = { [P in keyof T]: T[P] | null };
